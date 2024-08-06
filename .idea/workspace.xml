@@ -10,9 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="748e2898-3a8c-4700-b200-5a98cdfb50c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/DemoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722946744288</updated>
       <workItem from="1722946745218" duration="228000" />
-      <workItem from="1722946983422" duration="4445000" />
+      <workItem from="1722946983422" duration="5709000" />
     </task>
     <servers />
   </component>
