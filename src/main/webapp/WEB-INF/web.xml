@@ -13,6 +13,4 @@
         <servlet-name>contactServlet</servlet-name>
         <url-pattern>/contact-me</url-pattern>
     </servlet-mapping>
-
-
 </web-app>
