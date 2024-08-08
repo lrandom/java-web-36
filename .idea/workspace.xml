@@ -10,10 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="748e2898-3a8c-4700-b200-5a98cdfb50c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/CreateCookieServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/CreateSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/DeleteCookieServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/GetCookieServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/GetSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/AboutMeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/ContactServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/DemoServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +75,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 11.0.0-M20.executor": "Run",
     "Tomcat Server.index.jsp.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "session-2",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -189,7 +201,7 @@
       <updated>1722946744288</updated>
       <workItem from="1722946745218" duration="228000" />
       <workItem from="1722946983422" duration="5957000" />
-      <workItem from="1723117753726" duration="960000" />
+      <workItem from="1723117753726" duration="6459000" />
     </task>
     <servers />
   </component>

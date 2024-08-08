@@ -4,13 +4,5 @@
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
 
-    <servlet>
-        <servlet-name>contactServlet</servlet-name>
-        <servlet-class>luan.niit.com.javaweb36.ContactServlet</servlet-class>
-    </servlet>
 
-    <servlet-mapping>
-        <servlet-name>contactServlet</servlet-name>
-        <url-pattern>/contact-me</url-pattern>
-    </servlet-mapping>
 </web-app>
