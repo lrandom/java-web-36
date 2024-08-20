@@ -26,7 +26,7 @@ public class CategoriesDAO extends DB {
             }
             return list;
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
         return null;
     }

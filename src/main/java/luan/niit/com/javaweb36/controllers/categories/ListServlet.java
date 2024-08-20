@@ -21,6 +21,9 @@ public class ListServlet extends HttpServlet {
 
         //set data vào trong request để gửi qua view
         req.setAttribute("categories", categories);
+        for (Categories category : categories) {
+            System.out.println("categories" + category.getName());
+        }
 
         //tải cái trang jsp lên
         req.getRequestDispatcher("/WEB-INF/views/categories/list.jsp").forward(req, resp);

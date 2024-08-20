@@ -10,26 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="748e2898-3a8c-4700-b200-5a98cdfb50c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/controllers/categories/AddServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/controllers/categories/ListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/controllers/categories/UpdateServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/db/CategoriesDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/db/DB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/models/Categories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/categories/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/categories/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/categories/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/controllers/categories/DeleteServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d98551c-eae1-4434-9aff-385093c26382.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d98551c-eae1-4434-9aff-385093c26382.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82586df9-ff96-4401-a08e-28b473da3904.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82586df9-ff96-4401-a08e-28b473da3904/storage_v2/_src_/schema/java36.BbBvug.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/CreateCookieServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/CreateSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/DeleteCookieServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/GetCookieServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/GetSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/controllers/categories/AddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/controllers/categories/AddServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/controllers/categories/ListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/controllers/categories/ListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/db/CategoriesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/db/CategoriesDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/db/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/db/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/categories/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/categories/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/categories/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/categories/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,32 +70,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 11.0.0-M20.executor": "Run",
-    "Tomcat Server.index.jsp.executor": "Run",
-    "git-widget-placeholder": "session-3",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.15862069",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 11.0.0-M20.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.index.jsp.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;session-3&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.15862069&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 11.0.0-M20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.0-M20" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
