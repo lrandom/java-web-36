@@ -10,22 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="748e2898-3a8c-4700-b200-5a98cdfb50c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/CreateCookieServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/CreateSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/DeleteCookieServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/GetCookieServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/GetSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/controllers/categories/AddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/controllers/categories/ListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/controllers/categories/UpdateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/db/CategoriesDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/db/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/models/Categories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/categories/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/categories/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/categories/update.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d98551c-eae1-4434-9aff-385093c26382.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d98551c-eae1-4434-9aff-385093c26382.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82586df9-ff96-4401-a08e-28b473da3904.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82586df9-ff96-4401-a08e-28b473da3904/storage_v2/_src_/schema/java36.BbBvug.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/AboutMeServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/ContactServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/DemoServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/LoginServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/CreateCookieServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/CreateSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/DeleteCookieServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/GetCookieServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/GetSession.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +39,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -75,7 +87,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 11.0.0-M20.executor": "Run",
     "Tomcat Server.index.jsp.executor": "Run",
-    "git-widget-placeholder": "session-2",
+    "git-widget-placeholder": "session-3",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -85,6 +97,7 @@
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.15862069",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -106,6 +119,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="5f57d5cc-786e-453d-887f-9a0bbb5185cf" />
+        <option name="HTTP_PORT" value="8081" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -186,8 +200,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
       </set>
     </attachedChunks>
   </component>
@@ -207,5 +221,28 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="session-2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
