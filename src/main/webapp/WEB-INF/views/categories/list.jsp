@@ -8,6 +8,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="c" uri="jakarta.tags.core" %>
 <html>
 <head>
     <title>Title</title>
@@ -15,9 +16,6 @@
 </head>
 <body>
 <div class="container">
-    <%
-        ArrayList<Categories> list = (ArrayList<Categories>) request.getAttribute("categories");
-    %>
     <h1>Category List</h1>
     <table class="table">
         <thead>
@@ -27,27 +25,24 @@
         </tr>
         </thead>
         <tbody>
-        <%
-            for
-            (
-                    Categories
-                            category
-                    :
-                    list
-            ) {
-        %>
 
-        <tr>
-            <th scope="row"><%=category.getId()%>
-            </th>
-            <td><%=category.getName()%>
-            </td>
-            <td>
-                <a href="<%=request.getContextPath()%>/categories_edit?id=<%=category.getId()%>" class="btn btn-primary">Edit</a>
-                <a onclick="return confirm('Are you sure you want to delete?')" href="<%=request.getContextPath()%>/categories_delete?id=<%=category.getId()%>" class="btn btn-danger">Delete</a>
-            </td>
-        </tr>
-        <%}%>
+        <c:forEach var="category" items="${categories}">
+            <tr>
+                <th scope="row">
+                    <c:out value="${category.getId()}"/>
+                </th>
+                <td>
+                    <c:out value="${category.getName()}"/>
+                </td>
+                <td>
+                    <a href="<%=request.getContextPath()%>/categories_edit?id=<c:out value="${category.getId()}"/>"
+                       class="btn btn-primary">Edit</a>
+                    <a onclick="return confirm('Are you sure you want to delete?')"
+                       href="<%=request.getContextPath()%>/categories_delete?id=<c:out value="${category.getId()}"/>"
+                       class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        </c:forEach>
         </tbody>
     </table>
 </div>
