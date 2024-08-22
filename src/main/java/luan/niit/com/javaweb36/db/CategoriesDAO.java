@@ -7,7 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
-public class CategoriesDAO extends DB {
+public class CategoriesDAO extends DB implements IDAO<Categories> {
     public CategoriesDAO() {
         //open connection to database
         getConnect();
