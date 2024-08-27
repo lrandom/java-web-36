@@ -17,22 +17,22 @@
 <body>
 
 <div class="container">
-    <h1>Category Add</h1>
+    <h1>Product Update</h1>
     <form method="POST">
         <div class="mb-3">
             <label for="inputName" class="form-label">Product Name</label>
-            <input type="text" name="name" class="form-control" id="inputName">
+            <input type="text" name="name" class="form-control" value="${product.getName()}" id="inputName">
         </div>
         <div class="mb-3">
             <label for="inputPrice" class="form-label">Product Price</label>
-            <input type="text" name="price" class="form-control" id="inputPrice">
+            <input type="text" name="price" class="form-control" value="${product.getPrice()}" id="inputPrice">
         </div>
         <div class="mb-3">
             <label for="inputCategory" class="form-label">Categories Name</label>
             <select id="inputCategory" name="category_id" class="form-control">
                 <c:forEach var="category" items="${categories}">
                     <option value="${category.getId()}"/>
-                        <c:out value="${category.getName()}"/>
+                    <c:out value="${category.getName()}"/>
                     </option>
                 </c:forEach>
             </select>

@@ -7,52 +7,52 @@
       <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
       <ServerVersion>8.3.0</ServerVersion>
     </root>
-    <schema id="2" parent="1" name="blog">
+    <schema id="2" parent="1" name="mysql">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="3" parent="1" name="information_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="4" parent="1" name="java35">
+    <schema id="4" parent="1" name="performance_schema">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="5" parent="1" name="java36">
+    <schema id="5" parent="1" name="sys">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="6" parent="1" name="blog">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="7" parent="1" name="java35">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="8" parent="1" name="java36">
       <LastIntrospectionLocalTimestamp>2024-08-22.12:16:43</LastIntrospectionLocalTimestamp>
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="6" parent="1" name="mysql">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="7" parent="1" name="performance_schema">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="8" parent="1" name="sys">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="9" parent="1" name="test">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <table id="10" parent="5" name="categories">
+    <table id="10" parent="8" name="categories">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="11" parent="5" name="orders">
+    <table id="11" parent="8" name="orders">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="12" parent="5" name="product_orders">
+    <table id="12" parent="8" name="product_orders">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="13" parent="5" name="products">
+    <table id="13" parent="8" name="products">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="14" parent="5" name="user_infos">
+    <table id="14" parent="8" name="user_infos">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="15" parent="5" name="users">
+    <table id="15" parent="8" name="users">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>

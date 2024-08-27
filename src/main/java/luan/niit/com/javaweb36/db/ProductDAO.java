@@ -42,6 +42,7 @@ public class ProductDAO extends DB implements IDAO<Product> {
                 Product product = new Product();
                 product.setId(rs.getInt("id"));
                 product.setName(rs.getString("name"));
+                product.setPrice(rs.getDouble("price"));
                 return product;
             }
         } catch (Exception e) {
@@ -64,9 +65,12 @@ public class ProductDAO extends DB implements IDAO<Product> {
     @Override
     public Product update(int id, Product newProduct) {
         try {
-            PreparedStatement preparedStatement = connection.prepareStatement("UPDATE products SET name = ? WHERE id = ?");
+            PreparedStatement preparedStatement = connection.prepareStatement("UPDATE products SET name = ?, price = ?, category_id=? WHERE id = ?");
             preparedStatement.setString(1, newProduct.getName());
-            preparedStatement.setInt(2, id);
+            preparedStatement.setDouble(2, newProduct.getPrice());
+            preparedStatement.setInt(3, newProduct.getCategoryId());
+            preparedStatement.setInt(4, id);
+
             preparedStatement.executeUpdate();
 
             //đối tượng sau khi update

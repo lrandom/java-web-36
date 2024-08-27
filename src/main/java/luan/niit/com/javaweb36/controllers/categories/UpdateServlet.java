@@ -10,7 +10,7 @@ import luan.niit.com.javaweb36.models.Categories;
 
 import java.io.IOException;
 
-@WebServlet(name = "CategoriesAddServlet", urlPatterns = "/categories_edit")
+@WebServlet(name = "CategoriesEditServlet", urlPatterns = "/categories_edit")
 public class UpdateServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
