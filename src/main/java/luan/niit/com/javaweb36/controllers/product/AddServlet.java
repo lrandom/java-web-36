@@ -31,7 +31,7 @@ public class AddServlet extends HttpServlet {
         ProductDAO productDAO = new ProductDAO();
         Product product = new Product();
         product.setName(name);
-        product.setPrice(Double.parseDouble(price));
+        product.setPrice(Float.parseFloat(price));
         product.setCategoryId(Integer.parseInt(categoryId));
         productDAO.add(product);
         resp.sendRedirect(req.getContextPath() + "/product");

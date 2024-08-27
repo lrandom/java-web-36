@@ -26,7 +26,7 @@
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="8" parent="1" name="java36">
-      <LastIntrospectionLocalTimestamp>2024-08-22.12:16:43</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-08-27.13:03:27</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="9" parent="1" name="test">
@@ -57,7 +57,7 @@
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
     <column id="16" parent="10" name="id">
-      <AutoIncrement>10</AutoIncrement>
+      <AutoIncrement>11</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -138,7 +138,7 @@
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="33" parent="13" name="id">
-      <AutoIncrement>7</AutoIncrement>
+      <AutoIncrement>9</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -155,68 +155,72 @@
       <DasType>int|0s</DasType>
       <Position>4</Position>
     </column>
-    <index id="37" parent="13" name="PRIMARY">
+    <column id="37" parent="13" name="path">
+      <DasType>varchar(200)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="38" parent="13" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="38" parent="13" name="PRIMARY">
+    <key id="39" parent="13" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="39" parent="14" name="id">
+    <column id="40" parent="14" name="id">
       <AutoIncrement>3</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="40" parent="14" name="age">
+    <column id="41" parent="14" name="age">
       <DasType>tinyint|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="41" parent="14" name="hobbies">
+    <column id="42" parent="14" name="hobbies">
       <DasType>mediumtext|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="42" parent="14" name="user_id">
+    <column id="43" parent="14" name="user_id">
       <DasType>int|0s</DasType>
       <Position>4</Position>
     </column>
-    <index id="43" parent="14" name="PRIMARY">
+    <index id="44" parent="14" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="44" parent="14" name="PRIMARY">
+    <key id="45" parent="14" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="45" parent="15" name="id">
-      <AutoIncrement>5</AutoIncrement>
+    <column id="46" parent="15" name="id">
+      <AutoIncrement>6</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="46" parent="15" name="full_name">
+    <column id="47" parent="15" name="full_name">
       <DasType>varchar(200)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="47" parent="15" name="email">
+    <column id="48" parent="15" name="email">
       <DasType>varchar(100)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="48" parent="15" name="password">
+    <column id="49" parent="15" name="password">
       <DasType>varchar(100)|0s</DasType>
       <Position>4</Position>
     </column>
-    <index id="49" parent="15" name="PRIMARY">
+    <index id="50" parent="15" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="50" parent="15" name="PRIMARY">
+    <key id="51" parent="15" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

@@ -22,8 +22,9 @@ public class ProductDAO extends DB implements IDAO<Product> {
                 Product product = new Product();
                 product.setId(rs.getInt("id"));
                 product.setName(rs.getString("name"));
-                product.setPrice(rs.getDouble("price"));
+                product.setPrice(rs.getFloat("price"));
                 product.setCategoryId(rs.getInt("category_id"));
+                product.setPath(rs.getString("path"));
                 list.add(product);
             }
             return list;
@@ -42,7 +43,7 @@ public class ProductDAO extends DB implements IDAO<Product> {
                 Product product = new Product();
                 product.setId(rs.getInt("id"));
                 product.setName(rs.getString("name"));
-                product.setPrice(rs.getDouble("price"));
+                product.setPrice(rs.getFloat("price"));
                 return product;
             }
         } catch (Exception e) {
@@ -67,12 +68,10 @@ public class ProductDAO extends DB implements IDAO<Product> {
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("UPDATE products SET name = ?, price = ?, category_id=? WHERE id = ?");
             preparedStatement.setString(1, newProduct.getName());
-            preparedStatement.setDouble(2, newProduct.getPrice());
+            preparedStatement.setFloat(2, newProduct.getPrice());
             preparedStatement.setInt(3, newProduct.getCategoryId());
             preparedStatement.setInt(4, id);
-
             preparedStatement.executeUpdate();
-
             //đối tượng sau khi update
             return get(id);
         } catch (Exception e) {

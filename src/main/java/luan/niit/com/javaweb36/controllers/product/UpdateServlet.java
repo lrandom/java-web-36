@@ -36,7 +36,7 @@ public class UpdateServlet extends HttpServlet {
         Product product = new Product();
         product.setId(id);
         product.setName(name);
-        product.setPrice(Double.parseDouble(price));
+        product.setPrice(Float.parseFloat(price));
         product.setCategoryId(Integer.parseInt(categoryId));
         productDAO.update(id, product);
         resp.sendRedirect(req.getContextPath() + "/product");
