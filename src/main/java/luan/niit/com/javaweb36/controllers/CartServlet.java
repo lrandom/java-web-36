@@ -21,6 +21,13 @@ public class CartServlet extends HttpServlet {
             cart = (ArrayList<CartItem>) req.getSession().getAttribute(AddToCartServlet.CART_NAME);
         }
         req.setAttribute("cart", cart);
+        float subTotal = 0;
+        for (CartItem item : cart) {
+            subTotal += item.getProduct().getPrice() * item.getQuantity();
+        }
+        req.setAttribute("subTotal", subTotal);
+        float total = subTotal + (subTotal * 10 / 100);
+        req.setAttribute("total", total);
         req.getRequestDispatcher("/WEB-INF/views/cart.jsp").forward(req, resp);
     }
 }
