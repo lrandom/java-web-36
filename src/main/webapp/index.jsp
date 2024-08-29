@@ -1,13 +1,22 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@taglib prefix="fmt" uri="jakarta.tags.fmt" %>
+<%@taglib prefix="c" uri="jakarta.tags.core" %>
+<fmt:setLocale value="${sessionScope.lang}"/>
+<fmt:setBundle basename="message"/>
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+<c:out value="${sessionScope.lang}"/>
+
+<a href="${pageContext.request.contextPath}/?lang=vi_VN">Vietnamese</a>
+<a href="${pageContext.request.contextPath}/?lang=en_US">English</a>
+<a href="${pageContext.request.contextPath}/?lang=ja_JP">Japanese</a>
+
+<fmt:message key="hello"/>
+<fmt:message key="welcome_to"/>
 </body>
 </html>
