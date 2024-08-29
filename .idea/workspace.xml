@@ -10,12 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="748e2898-3a8c-4700-b200-5a98cdfb50c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/IndexServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/message.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/message_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/message_ja_JP.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/message_vi_VN.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/luan/niit/com/javaweb36/IndexServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +207,7 @@
       <workItem from="1722946983422" duration="5957000" />
       <workItem from="1723117753726" duration="6459000" />
       <workItem from="1724327900704" duration="6382000" />
-      <workItem from="1724933042452" duration="2169000" />
+      <workItem from="1724933042452" duration="3945000" />
     </task>
     <servers />
   </component>

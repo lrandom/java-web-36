@@ -12,9 +12,9 @@
 <body>
 <c:out value="${sessionScope.lang}"/>
 
-<a href="${pageContext.request.contextPath}/?lang=vi_VN">Vietnamese</a>
-<a href="${pageContext.request.contextPath}/?lang=en_US">English</a>
-<a href="${pageContext.request.contextPath}/?lang=ja_JP">Japanese</a>
+<a href="${pageContext.request.contextPath}/test?lang=vi_VN">Vietnamese</a>
+<a href="${pageContext.request.contextPath}/test?lang=en_US">English</a>
+<a href="${pageContext.request.contextPath}/test?lang=ja_JP">Japanese</a>
 
 <fmt:message key="hello"/>
 <fmt:message key="welcome_to"/>
